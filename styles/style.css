@@ -6,6 +6,7 @@
 body {
   text-align: center;
   font-family: "Merriweather", serif;
+  color: #40514e;
 }
 
 .top-container {
@@ -98,12 +99,16 @@ hr {
   width: 25%;
   float: left;
   margin-right: 30px;
+  height: 100px;
+  width: 100px;
 }
 
 .skill-img__down {
   width: 25%;
   float: right;
   margin-left: 30px;
+  height: 100px;
+  width: 100px;
 }
 
 .btn {
@@ -122,6 +127,11 @@ hr {
   margin-bottom: 50px;
 }
 
+.btn:hover {
+  color: #66bfbf;
+  background-color: #11999e;
+}
+
 .bottom-container {
   width: 100%;
   background-color: #66bfbf;
@@ -135,6 +145,10 @@ hr {
 
 .bottom-container a {
   text-decoration: none;
+}
+
+.bottom-container a:hover {
+  color: white;
 }
 
 .footer-link {
