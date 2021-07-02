@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+  line-height: 2;
+}
+
+h1 {
+  color: #66bfbf;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  color: #66bfbf;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+}
+
+.pro {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: #11999e;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.profile img {
+  height: 200px;
+  width: 200px;
+  border: 1px solid #66bfbf;
+  border-radius: 50%;
+  padding: 1rem;
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+
+.profile h2,
+.skills h2,
+.contact-me h2 {
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.contact-me h3 {
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+hr {
+  margin: 80px auto 80px auto;
+  width: 7%;
+  border-style: none;
+  border-top-style: dotted;
+  border-top-width: 10px;
+  border-color: #eaf6f6;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  color: #40514e;
+}
+
+.skill-img__up {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-img__down {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  border-radius: 20px;
+  background-color: #66bfbf;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  display: inline-block;
+  width: 200px;
+  padding: 1rem;
+  vertical-align: center;
+  text-decoration: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.bottom-container {
+  width: 100%;
+  background-color: #66bfbf;
+  padding: 2rem;
+  line-height: 3;
+}
+
+.bottom-container p {
+  color: white;
+}
+
+.bottom-container a {
+  text-decoration: none;
+}
+
+.footer-link {
+  text-decoration: none;
+  margin: auto 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+}
